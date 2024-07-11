@@ -8,87 +8,89 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20sp"
-        android:orientation="vertical"
-        >
+        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:weightSum="9"
-            >
+            android:weightSum="9">
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
-                android:text="Today"
-                android:textSize="35sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"
+                android:background="@drawable/home_today_title_background"
                 android:paddingStart="15sp"
                 android:paddingTop="5sp"
-                android:paddingBottom="15sp"
-                android:background="@drawable/home_today_title_background"
-                />
+                android:paddingBottom="15.4sp"
+                android:text="Today"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="6"
-                android:paddingBottom="15sp"
-                android:paddingStart="15sp"
-                android:background="@drawable/home_next_dates_container_background"
-                >
+                android:background="@color/white">
 
-                <TextView
-                    android:layout_width="50dp"
-                    android:layout_height="50sp"
-                    android:layout_marginEnd="5sp"
-                    android:background="@drawable/home_next_date_item"
-                    android:gravity="center"
-                    android:text="12"
-                    android:textColor="@color/black"
-                    android:textAlignment="center"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/home_next_dates_container_background"
+                    android:paddingStart="15sp"
+                    android:paddingBottom="17sp">
 
-                <TextView
-                    android:layout_width="50dp"
-                    android:layout_height="50sp"
-                    android:layout_marginStart="5sp"
-                    android:layout_marginEnd="5sp"
-                    android:background="@drawable/home_next_date_item"
-                    android:gravity="center"
-                    android:text="13"
-                    android:textColor="@color/black"
-                    android:textAlignment="center"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="50sp"
+                        android:layout_marginEnd="5sp"
+                        android:background="@drawable/home_next_date_item"
+                        android:gravity="center"
+                        android:text="12"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
 
-                <TextView
-                    android:layout_width="50dp"
-                    android:layout_height="50sp"
-                    android:layout_marginStart="5sp"
-                    android:layout_marginEnd="5sp"
-                    android:background="@drawable/home_next_date_item"
-                    android:gravity="center"
-                    android:text="14"
-                    android:textColor="@color/black"
-                    android:textAlignment="center"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="50sp"
+                        android:layout_marginStart="5sp"
+                        android:layout_marginEnd="5sp"
+                        android:background="@drawable/home_next_date_item"
+                        android:gravity="center"
+                        android:text="13"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
 
-                <TextView
-                    android:layout_width="50dp"
-                    android:layout_height="50sp"
-                    android:layout_marginStart="5sp"
-                    android:background="@drawable/home_next_date_item"
-                    android:gravity="center"
-                    android:text="15"
-                    android:textColor="@color/black"
-                    android:textAlignment="center"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="50sp"
+                        android:layout_marginStart="5sp"
+                        android:layout_marginEnd="5sp"
+                        android:background="@drawable/home_next_date_item"
+                        android:gravity="center"
+                        android:text="14"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="50sp"
+                        android:layout_marginStart="5sp"
+                        android:background="@drawable/home_next_date_item"
+                        android:gravity="center"
+                        android:text="15"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
             </LinearLayout>
 
         </LinearLayout>
@@ -96,10 +98,9 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:paddingBottom="20sp"
             android:background="@drawable/home_time_date_background"
-            >
+            android:orientation="vertical"
+            android:paddingBottom="20sp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -115,8 +116,7 @@
                     android:paddingStart="20sp"
                     android:paddingTop="20sp"
                     android:paddingEnd="20sp"
-                    android:paddingBottom="10sp"
-                    >
+                    android:paddingBottom="10sp">
 
                     <TextView
                         android:id="@+id/month_name"
@@ -182,8 +182,7 @@
                     android:paddingStart="20sp"
                     android:paddingTop="20sp"
                     android:paddingEnd="20sp"
-                    android:paddingBottom="10sp"
-                    >
+                    android:paddingBottom="10sp">
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -212,10 +211,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Dhaka - 1.22PM"
-                android:textColor="@color/black"
                 android:textAlignment="center"
-                android:textSize="20sp"
-                />
+                android:textColor="@color/black"
+                android:textSize="20sp" />
         </LinearLayout>
     </LinearLayout>
 
