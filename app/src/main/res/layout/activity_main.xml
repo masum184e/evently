@@ -157,7 +157,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="June"
-                        android:textColor="@color/black"
+                        android:textColor="#2A303C"
                         android:textSize="60sp"
                         android:textStyle="bold" />
 
@@ -283,8 +283,8 @@
                 <ImageView
                     android:layout_width="50sp"
                     android:layout_height="50sp"
-                    android:src="@drawable/rocket"
-                     />
+                    android:background="@drawable/home_next_date_item"
+                    android:src="@drawable/rocket" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -306,7 +306,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10sp"
-                android:background="@drawable/inactive_event_background"
+                android:background="@drawable/inactive_event_background_1"
                 android:orientation="vertical"
                 android:padding="15sp">
 
@@ -339,21 +339,23 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:background="@drawable/home_time_date_background"
+                android:background="@drawable/inactive_event_background_3"
                 android:orientation="vertical"
                 android:padding="20sp">
 
                 <ImageView
                     android:layout_width="50sp"
                     android:layout_height="50sp"
+                    android:background="@drawable/home_next_date_item"
                     android:src="@drawable/magnet" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
                     android:text="June 16"
                     android:textAlign="center"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="25dp"
                     android:textStyle="bold" />
 
@@ -364,21 +366,22 @@
                 android:layout_height="0dp"
                 android:layout_marginTop="10sp"
                 android:layout_weight="1"
-                android:background="@drawable/home_time_date_background"
+                android:background="@drawable/inactive_event_background_2"
                 android:orientation="vertical"
                 android:padding="20sp">
 
                 <ImageView
                     android:layout_width="50sp"
                     android:layout_height="50sp"
+                    android:background="@drawable/home_next_date_item"
                     android:src="@drawable/run" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="June 16"
+                    android:text="June 17"
                     android:textAlign="center"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="25dp"
                     android:textStyle="bold" />
 
